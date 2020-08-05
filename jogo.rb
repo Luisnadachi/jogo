@@ -44,8 +44,9 @@ class Oponente
         end
     end
 end
-
-puts("Bem vindo a pedra, papel e tesoura!")
+puts("===========================================")
+puts("=== Bem vindo a pedra, papel e tesoura! ===")
+puts("===========================================")
 puts("\n")
 puts("Você quer começar o jogo? Start ou Exit")
 comeco = gets.chomp
@@ -60,4 +61,8 @@ while (comeco == "start") do
     player.jogador = jogador
     
     player.inimigo
+
+    puts("Você quer jogar de novo? Start ou Exit")
+    comeco = gets.chomp
+    puts("\n")
 end
